@@ -1,0 +1,15 @@
+{
+  "name": "nlp-ai",
+  "version": "1.0.0",
+  "description": "This is an AI model trained using NLP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marvin Quillo Saik",
+  "license": "ISC",
+  "dependencies": {
+    "g4f": "^1.4.3",
+    "node-nlp": "^4.27.0"
+  }
+}
