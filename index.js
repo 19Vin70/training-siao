@@ -24,7 +24,7 @@ manager.addDocument( 'en', 'what are you doing?', 'greetings.what_doing');
 manager.addDocument( 'en', 'nice to meet you', 'greetings.nice_to_meet_you');
 manager.addDocument( 'en', 'how\'s everything?', 'greetings.how_everything');
 manager.addDocument( 'en', 'long time no see', 'greetings.long_time_no_see');
-manager.addDocument(  'en', 'what have you been up to?', 'greetings.what_up_to' );
+manager.addDocument( 'en', 'what have you been up to?', 'greetings.what_up_to' );
 manager.addDocument( 'en', 'What is programming?', 'programming.intro');
 manager.addDocument( 'en', 'Can you explain programming?', 'programming.intro');
 manager.addDocument( 'en', 'Tell me about programming', 'programming.intro');
@@ -32,7 +32,7 @@ manager.addDocument( 'en', 'What is JavaScript?', 'programming.language');
 manager.addDocument( 'en', 'Tell me about Python', 'programming.language');
 manager.addDocument( 'en', 'Explain Java to me', 'programming.language');
 manager.addDocument( 'en', 'What is HTML?', 'programming.language');
-manager.addDocument(  'en', 'What is CSS?', 'programming.language' );
+manager.addDocument( 'en', 'What is CSS?', 'programming.language' );
 manager.addDocument( 'en', 'I love you', 'love.express');
 manager.addDocument( 'en', 'I have feelings for you', 'love.express');
 manager.addDocument( 'en', 'You mean everything to me', 'love.express');
@@ -85,6 +85,11 @@ manager.addDocument( 'en', 'I need your advice', 'advice');
 manager.addDocument( 'en', 'help me out', 'advice');
 manager.addDocument( 'en', 'give me some tips', 'advice' );
 manager.addDocument( 'en', 'tell me something interesting', 'interesting' );
+manager.addDocument( 'en', 'what is matter', 'interesting' );
+manager.addDocument( 'en', 'tell me a fun fact', 'interesting' );
+manager.addDocument( 'en', 'tell me a joke', 'joke' );
+manager.addDocument( 'en', 'tell me something cool', 'interesting' );
+manager.addDocument( 'en', 'tell me something fascinating', 'joke' );
 
 
 
@@ -200,6 +205,15 @@ manager.addAnswer( 'en', 'interesting', 'The first SMS was sent in 1992.' );
 manager.addAnswer( 'en', 'interesting', 'The first item sold on eBay was a broken laser pointer.' );
 manager.addAnswer( 'en', 'interesting', 'The first YouTube video was uploaded on April 23, 2005.' );
 manager.addAnswer( 'en', 'interesting', 'The first tweet was sent by Jack Dorsey on March 21, 2006.' );
+manager.addAnswer( 'en', 'interesting', 'Matter is anything that has mass and takes up space.' );
+manager.addAnswer( 'en', 'interesting', 'Matter is made up of atoms and molecules.' );
+manager.addAnswer( 'en', 'interesting', 'Matter can exist in different states, such as solid, liquid, and gas.' );
+manager.addAnswer( 'en', 'interesting', 'Matter is composed of elements, which are made up of atoms.' );
+manager.addAnswer( 'en', 'joke', `Why don't scientists trust atoms? Because they make up everything!` );
+manager.addAnswer( 'en', 'joke', 'What do you call an alligator in a vest? An investigator!' );
+manager.addAnswer( 'en', 'joke', 'Why did the scarecrow win an award? Because he was outstanding in his field!' );
+manager.addAnswer( 'en', 'joke', 'What do you call a fake noodle? An impasta!' );
+manager.addAnswer( 'en', 'joke', 'Why did the math book look sad? Because it had too many problems!' );
 
 
 
